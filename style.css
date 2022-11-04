@@ -19,7 +19,7 @@ body.red {
 }
 
 body.green {
-  --card-title-border-color: #1db20f;
+  --card-title-border-color: #0b5304;
   --card-color-primary: #023102;
   --card-bg-color: #0f451d;
   --bg: url(./assets/bg-green.svg);
@@ -35,7 +35,7 @@ body.yellow {
 body.brazil {
   --card-title-border-color: #0d30cb;
   --card-color-primary: #aab715;
-  --card-bg-color: #1bad0a;
+  --card-bg-color: #105e07;
   --bg: url(./assets/bg-brazil.svg);
 }
 
