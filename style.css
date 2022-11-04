@@ -5,9 +5,9 @@
 }
 
 :root {
-  --card-title-border-color: #746615;
-  --card-color-primary: #f7dd43;
-  --card-bg-color: #202024;
+  --card-title-border-color: #063762;
+  --card-color-primary: #435ef7;
+  --card-bg-color: #060a48;
   --bg: url(./assets/bg-blue.svg);
 }
 
@@ -23,6 +23,20 @@ body.green {
   --card-color-primary: #023102;
   --card-bg-color: #0f451d;
   --bg: url(./assets/bg-green.svg);
+}
+
+body.yellow {
+  --card-title-border-color: #1127d1;
+  --card-color-primary: #171e02;
+  --card-bg-color: #97990a;
+  --bg: url(./assets/bg-yellow.svg);
+}
+
+body.brazil {
+  --card-title-border-color: #0d30cb;
+  --card-color-primary: #aab715;
+  --card-bg-color: #1bad0a;
+  --bg: url(./assets/bg-brazil.svg);
 }
 
 ul {
@@ -147,11 +161,14 @@ header {
 }
 
 @media (max-width: 700px) {
+  
   #cards {
+    margin-top: 144px;
     max-width: 670px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    
   }
 }
 .menuhorizontal {
@@ -199,3 +216,21 @@ color: #FFFFFF;
 .menuhorizontal li.btnesquerdo{
 border: none;}
 
+.intro{
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.lab{
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.conect{
+  align-items: center;
+  text-align: center;
+}
